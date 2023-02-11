@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Homepage</title>
+    <!-- CSS IMPORTS -->
+    <!-- INTERNAL -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header class="box header bg-color">
+        <nav class="header__navigation">
+            <a href="#"><img src="assets/img/Logo 1.svg" alt="Logo da navegação" />
+            </a>
+
+            <ul class="header__navigation__items">
+                <li><a href="#services" class="header__navigation__item">Services</a></li>
+                <li><a href="#portfolios" class="header__navigation__item">Portfolios</a></li>
+                <li><a href="#experience" class="header__navigation__item">Experience</a></li>
+                <li><a href="#blog" class="header__navigation__item">Blog</a></li>
+            </ul>
+
+            <div class="navigation__fragment">
+                <img src="assets/img/moon.svg" alt="Icone de uma lua" />
+
+                <button class="button">Resume</button>
+            </div>
+        </nav>
+
+        <section class="header__profile">
+            <div class="header__infos">
+                <h1 class="header__name">
+                    <span class="title"><span class="title-dash"></span> My name is</span> <br />
+                    Caleb <span class="header__name--purple">Nyong.</span>
+                </h1>
+                <p class="header__infos__description">
+                    Creative front-end developer with more than +2 years of experience
+                    in enterprise companies and startups. Proficient in Html, Tailwind
+                    Css, Javascript and React. Passionate about UI/UX
+                </p>
+                <nav class="header__icons">
+                    <ul>
+                        <li>
+                            <a href="#"> <img class="header__link__icon animation1" src="./assets/img/Instagram.svg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"> <img class="header__link__icon animation2" src="./assets/img/Github.svg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"> <img class="header__link__icon animation3" src="./assets/img/Twitter.svg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"> <img class="header__link__icon animation4" src="./assets/img/Linkedin.svg" alt="" />
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header__hero">
+                <img src="assets/img/undraw_mobile_encryption_re_yw3o.svg" alt="Imagem de um homem" />
+                <div class="roxo"></div>
+            </div>
+        </section>
+    </header>
+
+    <main class="bg-color">
+        <!-- SPECIALIZATIONS -->
+        <section class="specializations" id="services">
+            <div class="breath">
+                <div class="specializations__header">
+                    <h2 class="title"><span class="title-dash"></span> Services</h2>
+                    <p class="specializations__text">Specialized in</p>
+                </div>
+
+                <div class="specializations__cards">
+                    <section class="specializations__card">
+                        <img src="assets/img/crown.svg" alt="">
+
+                        <h3 class="specializations__card__title">UI/UX Design</h3>
+                        <p class="specializations__card__description">Turn what you have in mind of a digital product
+                            into reality. For any platform you consider.</p>
+                    </section>
+
+                    <section class="specializations__card">
+                        <img src="assets/img/App.svg" alt="">
+
+                        <h3 class="specializations__card__title">Application Development</h3>
+                        <p class="specializations__card__description">Standard designing, building, and implementing
+                            your applications with documentation.</p>
+                    </section>
+
+                    <section class="specializations__card">
+                        <img src="assets/img/globe.svg" alt="">
+
+                        <h3 class="specializations__card__title">Web Development</h3>
+                        <p class="specializations__card__description">Create and maintain your websites and also take
+                            care of its performance and traffic capacity.</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK EXPERICES -->
+        <section class="box-spacement work-experices" id="experience">
+            <h2 class="title-dash work-experices__title">career path</h2>
+            <div class="work-experices--flex">
+                <div class="work-box">
+                    <h3 class="work-experices__title-2">Work Experices</h3>
+                    <ul>
+                        <li class="work-experices__item work-experices__item--selected">Apple
+                            <img src="assets/img/shape.svg" alt="Icone seta right">
+                        </li>
+                        <li class="work-experices__item">Microsoft</li>
+                        <li class="work-experices__item">Facebook</li>
+                        <li class="work-experices__item">Slack</li>
+                    </ul>
+                </div>
+
+                <div class="work-experices__texts">
+                    <h3 class="work-experices__texts__title">Front-end Developer <span
+                            class="work-experices__texts__title--underline">Apple .Inc</span></h3>
+                    <p class="work-experices__texts__local">California, United States</p>
+                    <p>Nov 2020 - Present · Full-time</p>
+                    <ul>
+                        <li class="work-experices__language">Swift</li>
+                        <li class="work-experices__language">Go</li>
+                    </ul>
+                    <hr class="work-experices__line">
+                    <p><span class="dashed-fill">Improving overall website performance for mobile users.</span></p>
+                    <p><span class="dashed-fill">Collaborate with back-end developers and web designers to improve
+                            usability</span></p>
+                    <p><span class="dashed-fill">Add voice search feature for mobile app.</span></p>
+                    <p><span class="dashed-fill">Developing an admin panel to manage contents, users, products and
+                            ...</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION & SKILLS -->
+        <section class="education">
+            <form class="education__form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea cols="30" rows="10" placeholder="Message"></textarea>
+
+                <input class="education__form__submit" type="submit" value="Send Message">
+            </form>
+
+            <div class="education__infos">
+                <div class="education__info">
+                    <img src="./assets/img/address.svg" alt="">
+
+                    <div>
+                        <h3>Address</h3>
+                        <p>3424 Layman Avenue, Fayetteville, NC</p>
+                    </div>
+                </div>
+                
+                <div class="education__info">
+                    <img src="assets/img/phone.svg" alt="">
+
+                    <div>
+                        <h3>Phone</h3>
+                        <p>(501) 414-1541</p>
+                    </div>
+                </div>
+
+                <div class="education__info">
+                    <img src="assets/img/email.svg" alt="">
+
+                    <div>
+                        <h3>E-Mail</h3>
+                        <p>calebnyong02@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="social__media">
+                <img src="assets/img/Instagram.svg" alt="Logo do Instagram" class="animation1">
+                <img src="assets/img/Github.svg" alt="Logo do Github" class="animation2">
+                <img src="assets/img/Twitter.svg" alt="Logo do twitter" class="animation3">
+                <img src="assets/img/Linkedin.svg" alt="Logo do linkedin" class="animation4">
+            </div>
+            <div class="developed__by">
+                <p>&copy; 2023 - Developed By Gustavo and Kelviny</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
